@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imc.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css"> 
+    <title>Meu Peso</title>
+
+</head>
+
+<input type="button" id="Descobrir" value="Calcular" onclick="calculaImc()" class="botao">
+
+<body>
+
+    <h2 id="frango">Frango Frango Frango</h2>
+
+    <div class="quadro">
+
+        <img class="fundo" src="Imagem/cropped-Background-Academia.jpg.png">
+        <img class="person" src="Imagem/Gym-PNG-Free-Download.png">
+
+        <div class="espac">
+    <p>Use apenas números e "."</p>
+
+    <div class="barras">
+    <div id="form">
+        <form id="imcform" name="imcform" action="#">
+        <label for="altura"> Insira sua Altura</label>
+         <input type="text" id="altura" name="altura">
+    </div>
+    
+        <div id="form1">
+    <label for="peso"> Insira seu Peso</label>
+    <input type="text" id="peso" name="peso">
+    <br>
+        </div>
+    </form>
+
+    <button id="butt">
+    <label for="Descobrir">
+    <span>Calcular</span></label>
+    <div class="top"></div>
+    <div class="left"></div>
+    <div class="bottom"></div>
+    <div class="right"></div>
+    </button>
+    </div>
+</div>
+</body>
+</html>

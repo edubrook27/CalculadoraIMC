@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "gym";
+    src: url(Font/University.otf);
+}
+
+body {
+    background-color: #3f0d12;
+background-image: linear-gradient(90deg, #312f2f 0%, #000000 74%);
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+
+}
+
+#frango {
+    font-family: "gym";
+    font-size: 100pt;
+    background-image: linear-gradient(90deg, #ff0000 0%, #701111 74%);
+    width: 3000px;
+    margin-top: -10px;
+  
+}
+
+.quadro {
+    position: absolute;
+    margin-left: 350px;
+    width: 1250px;
+    height: 700px;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 2%;
+    box-shadow: 2px 2px 13px rgba(255, 0, 0, 0.295);
+}
+
+.fundo {
+    position: absolute;
+    width: 1250px;
+    filter: blur(2px);
+    border-radius: 2%;
+    opacity: .2;
+}
+
+.person {
+    position: absolute;
+    width: 600px;
+    margin-top: 59px;
+    margin-left: 600px;
+    opacity: .7;
+}
+
+.espac {
+    margin-left: -80px;
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    position: absolute;
+    margin-left: 340px;
+    top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.barras {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
+    
+
+}
+#altura {
+    width: 250px;
+    height: 20px;
+    padding: 3px;
+}
+
+#peso {
+    width: 250px;
+    height: 20px;
+    padding: 3px;
+}
+
+label {
+    font-family:"gym";
+    display: grid;
+    top: -50px;  
+    margin-bottom: 10px;
+    font-size: 20px; 
+    color: white;
+    
+}
+#form {
+    text-align: center;
+    width: auto;
+    padding-top: 120px;
+    margin-bottom: 50px;
+
+}
+#form1 {
+    text-align: center;
+    width: auto;
+    padding-bottom: 5px;
+}
+
+#Descobrir {
+    display: none;
+}
+
+#butt{
+    padding: 20px 60px;
+    background-color: #000;
+    border: none;
+    font-size: 18px;
+    position: relative;
+    /* overflow: hidden; */
+    transition: 500ms;
+    margin-top: 40px;
+    margin-left: 9px;
+  }
+  
+  #butt span {
+    color: gray;
+    position: relative;
+    transition: 500ms;
+    transition-delay: 500ms;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  
+  #butt:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transition: 500ms;
+    transition-delay: 500ms;
+    background-color: red;
+    box-shadow: 0 0 10px red,
+     0 0 30px red, 
+     0 0 50px red;
+  }
+  
+  #butt div {
+    transition: 500ms;
+    position: absolute;
+    background-color: red;
+    box-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;
+  }
+  
+  #butt .top {
+    width: 15px;
+    height: 2px;
+    top: 0;
+    left: 0;
+  }
+  
+  #butt .bottom {
+    width: 15px;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  #butt .left {
+    width: 2px;
+    height: 15px;
+    top: 0;
+    left: 0;
+  }
+  
+  #butt .right {
+    width: 2px;
+    height: 15px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  #butt:hover {
+    color: #000;
+  }
+  
+  #butt:hover span {
+    color: #000;
+  }
+  
+  #butt:hover:before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #butt:hover .top, 
+  #butt:hover .bottom {
+    width: 100%;
+  }
+  
+  #butt:hover .left,
+  #butt:hover .right {
+    height: 100%;
+  }
